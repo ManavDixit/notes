@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width:100%;
+	margin: 10px auto;
+	display: flex;
+}
+#add{
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+}
+#search{
+width:50%;
+display:block;
+margin:10px auto;
+border:2px solid grey;
+border-radius:5px;
+font-size:10px;
+outline:none;
+padding:5px;
+text-align:center;
+}
+#title{
+width: 80%;
+height:80px;
+margin: 25px;
+	border-radius: 8px;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	padding: 25px;
+	overflow: hidden;
+	resize: none;
+}
+#text{
+	width: 80%;
+ height: 150px;
+	margin: 25px;
+	border-radius: 8px;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	padding: 25px;
+	overflow: hidden;
+	resize: none;
+			 }
+.btn{
+	width: 25%;
+	height: 2rem;
+	background-color:transparent;
+	border-radius: 8px;
+	border:2px solid grey;
+	font-family:sans-serif;
+}
+#notes{
+ justify-content:center;
+ flex-wrap:wrap;
+ font-size:12px;
+}
+.card{
+width:50%;
+text-align:center;
+padding:25px;
+border:2px solid grey;
+border-radius:8px;
+margin:25px;
+}
+.card p{
+margin:5px 0px;
+}
+@media(min-width:868px){
+.card{
+width: 30%;
+font-size:30px;
+}
+#title{
+				width: 50%;
+				font-size: 20px;
+}
+#text{
+width: 50%;
+font-size: 20px;
+}
+.btn{
+font-size: 20px;
+width: 10%;
+}
+}
+.btns{
+    width: 50%;
+	height: 2rem;
+	background-color:transparent;
+	border-radius: 8px;
+	border:2px solid grey;
+	font-family:sans-serif;
+	margin:15px;
+}
