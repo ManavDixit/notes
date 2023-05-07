@@ -59,7 +59,7 @@ margin: 25px;
 #notes{
  justify-content:center;
  flex-wrap:wrap;
- font-size:12px;
+ font-size:20px;
 }
 .card{
 width:50%;
