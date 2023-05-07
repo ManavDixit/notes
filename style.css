@@ -60,6 +60,7 @@ margin: 25px;
  justify-content:center;
  flex-wrap:wrap;
  font-size:20px;
+text-align:center;
 }
 .card{
 width:50%;
